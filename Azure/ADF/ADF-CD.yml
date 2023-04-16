@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        stage: ['stg', 'prd']
+        stage: ['stg']
       fail-fast: true
       max-parallel: 1
     environment:
